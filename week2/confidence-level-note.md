@@ -39,3 +39,29 @@
 - This substitution introduces error.
 - So, confidence interval calculated with t-distribution instead of Normal distribution.
 - t-distribution allows for error in estimate of standard deviation.
+- t-distribution is like Normal distribution but with fatter tails that allow for error.
+- since we hardly know the population standard deviation, we use t-distribution a lot
+
+## EX: Emotional Inteligence Scores
+- An estimate of the emotional intelligence(EI) of a random sample of children at a school for the gifted and talented
+- The researcher's test
+  - The sample mean x-bar = 130
+  - The sample standard devation s = 15
+  - The sample size n = 120
+- The confidence interval formula
+    - CO(Confidence Interval) = 130 += tcrit(15/sqrt(120))
+- In our example, for a 95% confidence interval and n=120:
+  - From a table, tcrit is 1.9790.
+  - Note that 1.979 isclose to the 1.96 we'd get if we were using a Normal distribution
+  - The values are close because we have a large sample size.
+- CI = 127.29 to 132.71/
+- We could say:
+    - In the long run, "95% of the confidence intervals estimated with this procedure for random samples from the same population will contain the population mean mu."
+    - "The other 5% of confidence intervals will not contain mu."
+ ## calculating tcrit value   
+- The tcrit value depends on your chosen confidence interval. (905, 95%, 99%. etc.)
+- Look up the tcrit values in a table if you're calculating by hand
+- tcrit is a function of:
+  - the degrees of freedom(defined as n-1)
+  - the confidence level(which you choose)
+  - 
