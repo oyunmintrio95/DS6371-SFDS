@@ -58,10 +58,13 @@
 - We could say:
     - In the long run, "95% of the confidence intervals estimated with this procedure for random samples from the same population will contain the population mean mu."
     - "The other 5% of confidence intervals will not contain mu."
+    - 
  ## calculating tcrit value   
 - The tcrit value depends on your chosen confidence interval. (905, 95%, 99%. etc.)
 - Look up the tcrit values in a table if you're calculating by hand
 - tcrit is a function of:
   - the degrees of freedom(defined as n-1)
   - the confidence level(which you choose)
-  - 
+
+## How to interpret a 95 percent confidence interal for the mean?
+- If we took many, many samples from the same population and constructed a confidence interval for the mean from each one, then approximately 95 percent of those intervals would contain the true mean. We hope that we have contained the mean in our interval, and thus we are 95 percent confident that our interval contains the mean.
